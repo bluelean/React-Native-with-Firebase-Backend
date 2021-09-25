@@ -6,34 +6,7 @@ import { windowWidth } from '../utils/Dimetions'
 import { Avatar } from 'react-native-paper'
 import firestore from '@react-native-firebase/firestore'
 const DATA = [
-    {
-        id:'lsdsdsafdajfklasjdf',
-        seen: true,
-        message:' I’m at college, learning how to find occupation',
-        time: '7:59 PM',
-        sender:'Jatt',
-    },
-    {
-        id:'lsddssdsafdajfklasjdf',
-        seen: true,
-        message:'What is your occupation?',
-        time: '7:59 PM',
-        sender:'Hidu',
-    },
-    {
-        id:'lsdajfsfdafklasjdf',
-        seen: true,
-        message:'hi, Am sorry I don’t understand the question.',
-        time: '7:59 PM',
-        sender:'Jatt',
-    },
-    {
-        id:'lsdajfkldsfasjdf',
-        seen: true,
-        message:'Hello Amar Whats App, What do you do for a living?',
-        time: '7:59 PM',
-        sender:'Hidu',
-    },
+    
 ]
 
 const Item = ({ item,currUid, receiever_profile_image, sender_profile_image}) => (
