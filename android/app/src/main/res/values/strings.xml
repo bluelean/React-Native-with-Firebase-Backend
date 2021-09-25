@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">frolicMobile</string>
+    <string name="facebook_app_id">852117802109116</string>
+    <string name="facebook_client_token">caaa7bed9595d8af2bbd4600130855d5</string>
+    <string name="fb_login_protocol_scheme">fb852117802109116</string>
+</resources>
